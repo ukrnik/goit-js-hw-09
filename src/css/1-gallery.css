@@ -1,0 +1,42 @@
+.gallery {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 24px;
+    list-style: none;
+    margin: 24px auto;
+    justify-content: center;
+    max-width: 1128px;
+}
+
+.gallery-item {
+    transition: transform 0.3s ease-in-out;
+    overflow: hidden;
+    border-radius: 8px;
+    max-width: 360px;
+    max-height: 200px;
+}
+
+.gallery-item:hover {
+    transform: scale(1.05);
+}
+
+.gallery-link {
+    display: block;
+    text-decoration: none;
+}
+
+.gallery-image {
+    width: 360px;
+    height: 200px;
+    display: block;
+}
+
+.basicLightbox {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+ul {
+    padding-inline-start: 0px;
+}
